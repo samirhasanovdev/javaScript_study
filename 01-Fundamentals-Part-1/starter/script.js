@@ -5,3 +5,4 @@ const isIsland = false;
 const language = 'Azeri'; 
 console.log (country, continent, population, isIsland, language)
 
+hi
