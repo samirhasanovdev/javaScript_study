@@ -63,8 +63,36 @@
 // }
 
 
-const favourite = prompt ('Your number');
+// const favourite = prompt ('Your number');
 
-if (favourite == 23) { // with if (favourite === 23) it will not work
-    console.log ('Cool number')
+// if (favourite == 23) { // with if (favourite === 23) it will not work
+//     console.log ('Cool number')
+// }
+
+// const hasgoodvison = true;
+// const hasdriverlicense = false;
+// console.log (hasdriverlicense   && hasdriverlicense)
+// console.log (hasdriverlicense || hasgoodvison)
+// console.log (!hasdriverlicense)
+
+
+const scoreDolphins  = (96+108+89)/3;
+const scoreKoalas = (88+91+110)/3;
+
+if (scoreDolphins > scoreKoalas) {
+    console.log ('Dolphins win the trophy');
+} else if  (scoreKoalas > scoreDolphins) {
+    console.log ('Koalas win the trophy');
 }
+else
+ {
+    console.log ('Both win the trophy')
+}
+
+// if (scoreDolphins > scoreKoalas) {
+//     console.log('Dolphins win the trophy');
+// } else if (scoreKoalas > scoreDolphins) {
+//     console.log('Koalas win the trophy');
+// } else {
+//     console.log('Both win the trophy');
+// }
