@@ -76,23 +76,37 @@
 // console.log (!hasdriverlicense)
 
 
-const scoreDolphins  = (96+108+89)/3;
-const scoreKoalas = (88+91+110)/3;
+// const scoreDolphins  = (96+108+89)/3;
+// const scoreKoalas = (88+91+110)/3;
+// console.log (scoreDolphins, scoreKoalas)
 
-if (scoreDolphins > scoreKoalas) {
-    console.log ('Dolphins win the trophy');
-} else if  (scoreKoalas > scoreDolphins) {
-    console.log ('Koalas win the trophy');
-}
-else
- {
-    console.log ('Both win the trophy')
-}
-
-// if (scoreDolphins > scoreKoalas) {
-//     console.log('Dolphins win the trophy');
-// } else if (scoreKoalas > scoreDolphins) {
-//     console.log('Koalas win the trophy');
-// } else {
-//     console.log('Both win the trophy');
+// if (scoreDolphins > scoreKoalas && scoreDolphins > 100 ) {
+//     console.log ('Dolphins win the trophy');
+// } else if  (scoreKoalas > scoreDolphins && scoreKoalas > 100 ) {
+//     console.log ('Koalas win the trophy');
 // }
+// else if (scoreKoalas)
+// else
+//  {
+//     console.log ('Both win the trophy' )
+// }
+
+
+
+// const day = 'tuesday';
+
+// if ( day === 'monday') {
+//     console.log ('Monday')   
+// }
+// else if (day === 'tuesday' || day === 'friday')
+// {
+//     console.log ('FRIDAY TUESDAY')
+// }
+// else {
+//     console.log ('Not a day')
+// }
+
+
+
+const tip 
+const bill
