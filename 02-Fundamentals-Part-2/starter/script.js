@@ -19,3 +19,4 @@ const checkWinner = function (avgDolhins, avgKoalas) {
     
 console.log (checkWinner (scoreDolphins, scoreKoalas));
 console.log (checkWinner (scoreDolphins2, scoreKoalas2));
+sdsds
