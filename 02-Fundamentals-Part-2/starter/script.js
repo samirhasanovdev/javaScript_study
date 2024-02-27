@@ -28,12 +28,31 @@
 // const total = [bills[0] + tips[0],bills[1] + tips[1], bills[2] + tips[2]];
 
 const samir =  {
-    firsstName: 'Samir',
+    firstName: 'Samir',
     lastName: 'Hasanov',
-    age: 2024 - 1994,
+    birthYear: 1994,
     job: 'dev',
-    friends: ['Peter', 'Steven', 'Lara']
+    friends: ['Peter', 'Steven', 'Lara'],
+    hasDriverlicense: true,
+    // calcAge: function () {
+    //     return 2024 - this.birthYear;   
+    calcAge: function () {
+        this.age = 2024 - this.birthYear;
+        return this.age;
+     },
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriverlicense ? 'a' : 'no'} driver's license.`
+      }
 };
 
 
-console.log (samir['firsstName'], 'has' , samir['friends'].length, 'friends, and his best friend is called', samir['friends'][0])
+// console.log (samir['firsstName'], 'has' , samir['friends'].length, 'friends, and his best friend is called', samir['friends'][0])
+console.log (samir.calcAge())
+console.log (samir.getSummary())
+
+// if (samir.hasDriverlicense) {
+//     console.log (`${samir.firsstName} is a ${samir.age} years old dev and has a driver license `)
+// } 
+// else {
+//     console.log ('Nothing')
+// }
